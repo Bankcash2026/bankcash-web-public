@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="halo" cx="78%" cy="42%" r="50%">
+      <stop stop-color="#2563ff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#04080f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="0" x2="1">
+      <stop stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#0052ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#04080f"/>
+  <rect width="1200" height="630" fill="url(#halo)"/>
+  <path d="M0 505C245 452 418 592 650 535C828 491 1001 389 1200 436V630H0Z" fill="#07152e"/>
+  <rect x="66" y="58" width="1068" height="514" rx="38" fill="none" stroke="#162b5c"/>
+  <text x="86" y="158" font-family="monospace" font-size="19" letter-spacing="5" fill="#60a5fa">OFFICIAL X CHANNEL</text>
+  <text x="86" y="278" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#ffffff">BankCash</text>
+  <text x="86" y="349" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="url(#stroke)">Rewards Bank</text>
+  <text x="86" y="414" font-family="monospace" font-size="22" fill="#aebdd2">Save Tokens. Spin Fortune. Earn Rewards.</text>
+  <text x="86" y="526" font-family="monospace" font-size="25" font-weight="700" fill="#ffffff">X  @bankcash_</text>
+  <circle cx="955" cy="250" r="120" fill="none" stroke="#2563ff" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="955" cy="250" r="84" fill="none" stroke="#60a5fa" stroke-opacity=".2" stroke-width="14"/>
+  <path d="M896 250h118M955 191v118" stroke="#0052ff" stroke-width="8" stroke-linecap="round"/>
+</svg>
