@@ -90,7 +90,10 @@ export function NavBar() {
           />
         </div>
       </div>
-      <nav className="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-4 pb-3 lg:hidden" aria-label="Mobile navigation">
+      <nav
+        className="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-4 pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:hidden"
+        aria-label="Mobile navigation"
+      >
         {LINKS.map((l) => {
           const active = pathname === l.href;
           return (
