@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'BankCash Rewards Bank — Save Tokens. Spin Fortune. Bank Like A Degen.',
   description:
     'The first rewards bank for degens. Save BANKCASH, spin the fortune wheel, claim cashback, climb ranks, and raid the lucky vault. Your funds are emotionally safe.',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://bankcash.fun'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://bcash.fun'),
   openGraph: {
     title: 'BankCash Rewards Bank',
     description: 'Save Tokens. Spin Fortune. Bank Like A Degen.',
