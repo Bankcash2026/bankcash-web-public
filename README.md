@@ -82,6 +82,8 @@ The following are intentionally not published here:
 - `.env` files, secrets, tokens, private keys, passwords, or signing material
 - build output, caches, or installed dependencies
 
+![BankCash CLI terminal preview](public/assets/social/cli-banner.svg)
+
 ## BankCash CLI
 
 This repository includes a real command line interface for public BankCash
