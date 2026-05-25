@@ -18,7 +18,7 @@
   <text x="94" y="275" font-family="Arial, sans-serif" font-size="78" font-weight="700" fill="#ffffff">The vault is open.</text>
   <text x="94" y="350" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="url(#accent)">Save. Spin. Earn.</text>
   <text x="94" y="415" font-family="monospace" font-size="21" fill="#aebdd2">Built for the Base rewards community.</text>
-  <text x="94" y="518" font-family="monospace" font-size="21" fill="#60a5fa">bankcash-web.vercel.app</text>
+  <text x="94" y="518" font-family="monospace" font-size="21" fill="#60a5fa">bankcash.fun</text>
   <circle cx="973" cy="421" r="90" fill="none" stroke="#2563ff" stroke-opacity=".45" stroke-width="2"/>
   <circle cx="973" cy="421" r="62" fill="none" stroke="#60a5fa" stroke-opacity=".22" stroke-width="11"/>
   <path d="M930 421h86M973 378v86" stroke="#0052ff" stroke-width="7" stroke-linecap="round"/>

@@ -4,7 +4,7 @@ Public frontend for the BankCash Rewards Bank experience.
 
 ![BankCash launch banner](public/assets/social/launch-banner.svg)
 
-- Live site: https://bankcash-web.vercel.app/
+- Website domain: https://bankcash.fun/
 - X: https://x.com/bankcash_
 - GitHub: https://github.com/Bankcash2026/bankcash-web-public
 - Stack: Next.js, Tailwind CSS, RainbowKit, wagmi

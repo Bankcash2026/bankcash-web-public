@@ -33,7 +33,7 @@ const SECTIONS = [
   },
   {
     h: 'Referrals',
-    b: 'Share your link (bankcash.app/ref/CODE). The inviter earns 5 cashback per friend; the invited degen gets a free spin ticket. Self-referral and duplicate referrals are blocked.',
+    b: 'Share your link (bankcash.fun/ref/CODE). The inviter earns 5 cashback per friend; the invited degen gets a free spin ticket. Self-referral and duplicate referrals are blocked.',
   },
   {
     h: 'Security',
