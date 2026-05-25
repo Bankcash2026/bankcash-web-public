@@ -2,11 +2,16 @@
   "name": "bankcash-web",
   "version": "0.1.0",
   "private": true,
+  "bin": {
+    "bankcash": "./bin/bankcash.mjs"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cli": "node ./bin/bankcash.mjs",
+    "cli:smoke": "node ./bin/bankcash.mjs info --json && node ./bin/bankcash.mjs routes --json && node ./bin/bankcash.mjs config --json"
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.1.5",

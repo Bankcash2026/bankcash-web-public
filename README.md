@@ -66,6 +66,7 @@ glass panels, and subtle motion:
 | Web3 client | wagmi and viem |
 | Data state | Zustand and TanStack Query |
 | Network target | Base-compatible configuration |
+| Public CLI | Node.js read-only project and availability commands |
 
 ## Public Repository Scope
 
@@ -80,6 +81,50 @@ The following are intentionally not published here:
 - Vercel project metadata and local deployment state
 - `.env` files, secrets, tokens, private keys, passwords, or signing material
 - build output, caches, or installed dependencies
+
+## BankCash CLI
+
+This repository includes a real command line interface for public BankCash
+information and endpoint checks. It is intentionally read-only: it does not
+request wallet private keys, sign transactions, or expose backend operations.
+
+### Run The CLI
+
+```bash
+npm install
+npm run cli -- help
+npm run cli -- info
+npm run cli -- links
+npm run cli -- routes
+npm run cli -- config
+npm run cli -- status
+```
+
+To expose the `bankcash` command on the local machine:
+
+```bash
+npm link
+bankcash info
+bankcash links --json
+bankcash status
+bankcash open github
+```
+
+### CLI Commands
+
+| Command | Purpose |
+| --- | --- |
+| `bankcash info` | Displays the public project summary and official links |
+| `bankcash links` | Prints the website, X, and public GitHub links |
+| `bankcash routes` | Lists public frontend routes and their purpose |
+| `bankcash config` | Displays browser-visible Base network configuration names |
+| `bankcash status` | Checks the public website and GitHub without failing the process |
+| `bankcash check` | Exits non-zero when a public endpoint is unavailable |
+| `bankcash open <website\|x\|github>` | Opens an official public destination |
+| `--json` | Returns machine-readable output for supported commands |
+
+Availability commands reflect current DNS and HTTP status. A custom domain
+that is not yet configured will correctly be reported as unavailable.
 
 ## Local Development
 
@@ -119,6 +164,8 @@ secrets must never be placed in variables prefixed with `NEXT_PUBLIC_`.
 npm run dev      # Start local development
 npm run build    # Create an optimized production build
 npm run start    # Run the production build locally
+npm run cli      # Run the BankCash public CLI
+npm run cli:smoke # Run read-only CLI smoke checks
 ```
 
 ## Security Boundary
